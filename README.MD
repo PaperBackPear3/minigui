@@ -19,18 +19,18 @@ Mini-GUI is a lightweight Kubernetes GUI built with Svelte for the frontend and 
 
 2. Build the backend:
     ```sh
-    cd backend
+    cd api
     go build
     ```
 
 3. Start the backend server:
     ```sh
-    ./backend
+    ./api
     ```
 
 4. Install frontend dependencies and start the development server:
     ```sh
-    cd frontend
+    cd app
     yarn install
     yarn dev
     ```
